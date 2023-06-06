@@ -1,0 +1,72 @@
+footer {
+  background-color: white;
+  padding: 0 3rem 2.5rem 3rem;
+  color: black;
+}
+
+.wrapper1 {
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.logo {
+    width: 230px;
+    height: 60px;
+}
+
+.addressHeading {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.addressContent {
+    font-size: 0.8rem;
+}
+
+.gitContainer {
+    display: flex;
+    gap: 1px;
+}
+
+.gitLink {
+    font-size: 0.8rem;
+}
+
+.gitArrow {
+    width: 20px;
+    height: 20px;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+
+.wtfContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.scrollDiv {
+    display: flex;
+    flex-direction: row;
+    width: 7rem;
+    cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  footer {
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+  .wrapper1 {
+    flex-direction: row;
+    gap: 7rem;
+  }
+}
