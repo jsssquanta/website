@@ -1,0 +1,48 @@
+.yearName {
+  text-align: center;
+}
+
+.yearName h1 {
+  color: white;
+  margin-bottom: 0.55rem;
+  font-size: 7.1rem;
+  line-height: 8.3rem;
+  color:#FFB829,
+}
+
+.deptFlexContainer {
+  margin: auto;
+  max-width: 40.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deptFlexContainer p {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.teamSection {
+  margin: 7.1rem 10rem 10rem 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+}
+@media(max-width:761px) {
+  .yearName h1 {
+    color: white;
+    margin-bottom: 0.55rem;
+    font-size: 2.1rem;
+    line-height: 8.3rem;
+    margin-top: 5rem;
+    color: #FFB829;
+  } 
+  .deptFlexContainer {
+    margin: 0rem 2rem;
+    max-width: 40.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: "Nexa";
+  src: local("Nexa"),
+    url("./assets/fonts/Nexa/Nexa_Regular.otf") format("truetype");
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0a08;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Hero component */
+.hero {
+  height: 47rem;
+}
+
+.hero__heading,
+.hero__subheading {
+  width: 50rem;
+  margin-left: 8rem;
+}
+
+.hero__heading {
+  padding-top: 5rem;
+  font-size: 7.5rem;
+  line-height: 7rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero__subheading {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #ffb829;
+}
+
+button {
+  width: 11rem;
+  height: 2.8rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #ffffff;
+  background: #8052ff;
+  border-radius: 2.8rem;
+  text-align: center;
+}
+.toggle-icon {
+  display: none;
+}
+
+@media (max-width: 761px) {
+  .hero__heading {
+    padding-top: 38rem;
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-bottom: -1rem;
+    color: white;
+    width: 17rem;
+    margin-left: 1rem;
+  }
+  .hero__subheading {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #ffb829;
+    width: 22rem;
+    margin-left: 2rem;
+  }
+  .hero {
+    background-size: contain;
+  }
+  .toggle-icon {
+    color: white;
+    margin-right: 1rem;
+    display: block;
+  }
+}

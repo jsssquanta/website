@@ -1,0 +1,141 @@
+.our {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 10rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.img1 {
+  height: 87px;
+  width: 57px;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+.tecnical {
+  margin-top: 33px;
+  color: white;
+  font-size: 35px;
+}
+.our_department {
+  font-size: 68px;
+  color: white;
+  margin-left: -157px;
+  margin-top: -566px;
+}
+.img2 {
+  width: 97.26px;
+  height: 81.67px;
+  margin-top: -460px;
+  margin-left: 590px;
+  transform: rotate(-8.98deg);
+}
+
+.container3_ourdepartment {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+.tech {
+  display: flex;
+  flex-direction: row;
+  /* width: 900px; */ /*Changed while making responsive*/
+  height: 615px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+.design {
+  font-size: 35px;
+  margin-right: 186px;
+  color: white;
+  margin-top: -449px;
+}
+.our_1 {
+  display: flex;
+  flex-direction: row;
+}
+.our_2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 150px;
+}
+.img3 {
+  vertical-align: middle;
+  height: 81px;
+  /* width: 116px; */
+  margin-left: 79px;
+  margin-top: -256px;
+}
+.wed_development {
+  font-size: 2.5rem;
+  margin-top: -256px;
+  margin-left: 31px;
+  font-size: 35px;
+  color: white;
+}
+.about_text {
+  font-size: 23px;
+  margin-left: 310px;
+  margin-top: -455px;
+  color: white;
+  width: 31rem;
+}
+.about_text .quan {
+  color: #ffb829;
+}
+@media (max-width: 761px) {
+  .our_department {
+    font-size: 2.5rem;
+    color: white;
+    margin-left: -34rem;
+    margin-top: -40rem;
+  }
+  .about_text {
+    font-size: 23px;
+    margin-left: -23rem;
+    margin-top: -35rem;
+    text-align: center;
+    color: white;
+  }
+  .img1 {
+    height: 87px;
+    width: 57px;
+    margin-top: 5px;
+    margin-left: 3rem;
+    margin-top: 20rem;
+  }
+  .tecnical {
+    margin-top: 22rem;
+    color: white;
+    font-size: 35px;
+  }
+  .img2 {
+    width: 90.26px;
+    height: 62.67px;
+    margin-top: -7rem;
+    margin-left: 12rem;
+    transform: rotate(-8.98deg);
+  }
+  .design {
+    font-size: 35px;
+    margin-right: 186px;
+    color: white;
+    margin-top: -5rem;
+  }
+  .img3 {
+    vertical-align: middle;
+    height: 70px;
+    /* width: 116px; */
+    margin-left: 3rem;
+    margin-top: 4rem;
+  }
+  .wed_development {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-left: 0rem;
+    font-size: 35px;
+    color: white;
+  }
+}

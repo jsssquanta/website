@@ -1,0 +1,77 @@
+  .container{
+    width: 100%;
+  }
+  .team_container {
+    background-color: #0b0a08;
+    width: 100vw;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .team_container > h1 {
+  color: aliceblue;
+  padding: 35px 0 25px 95px;
+  font-size: 80px;
+  line-height: 75px;
+  }
+  .team_container > p {
+  /* position: absolute;   */
+  z-index: 2;
+  width: max-content;
+  /* left: -500px; */
+  margin-left: 6.4rem;
+  color: aliceblue;
+  font-size: 23px;
+  line-height: 21px;
+  margin-top: 3rem;
+  line-height: 1.5rem;
+  }
+.team_container > span {
+  /* position: absolute; */
+  z-index: 2;
+  width: auto;
+  /* left: -500px; */
+  margin-left: 6.4rem;
+  color: aliceblue;
+  font-size: 2.5rem;
+  line-height: 21px;
+  margin-top: -1rem;
+}  
+
+.yellow
+{
+  color: #FFB829;
+}
+@media(max-width:761px) {
+  .team_container > h1 {
+    color: aliceblue;
+    padding: 35px 0 25px 95px;
+    font-size: 3rem;
+    line-height: 75px;
+    margin-left: -1rem;
+    margin-top: 15rem;
+  }
+  .team_container > p {
+        /* position: absolute; */
+        z-index: 2;
+        width: max-content;
+        /* left: -500px; */
+        margin-left: 1.4rem;
+        color: aliceblue;
+        font-size: 1.2rem;
+        line-height: 21px;
+        margin-top: 3rem;
+        line-height: 1.5rem;
+  }
+  .team_container > span {
+    position: absolute; 
+    z-index: 2;
+    width: auto;
+    /* left: -500px; */
+    margin-left: 3.4rem;
+    color: aliceblue;
+    font-size: 2.5rem;
+    line-height: 42px;
+    margin-top: -1rem;
+  }  
+}

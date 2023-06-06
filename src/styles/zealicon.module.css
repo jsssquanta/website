@@ -1,0 +1,435 @@
+.main {
+  background-color: white;
+  /* width: 100vw;
+  height: 100vh; */
+  color: black;
+}
+
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.left {
+  width: 30vw;
+}
+
+.left h1 {
+  font-size: 5rem;
+  background: linear-gradient(to right, #1c55ab, #9965ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.year {
+  font-size: 2.3rem;
+  margin-top: -1rem;
+  margin-bottom: 1.7rem;
+}
+
+.first {
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.second {
+  color: #1c55ab;
+  font-weight: 600;
+}
+
+.vid {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.vid iframe {
+  width: 35rem;
+  height: 24rem;
+}
+
+.section {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.events img {
+  width: 23vw;
+  border-radius: 0.75rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+
+}
+
+.Zealicon_Container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.zealicon_heading {
+  color: #1C55AB;
+  font-size: 3.8rem;
+  font-weight: 600;
+
+}
+
+.Robo_olympics {
+  display: grid;
+  justify-items: center;
+  background-color: #BC5454;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+.Mighty{
+  display: grid;
+  justify-items: center;
+  background-color: #C0A350;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+.Riddle{
+  display: grid;
+  justify-items: center;
+  background-color: #BDA678;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding-bottom: 5rem;
+
+}
+.Tesla{
+  display: grid;
+  justify-items: center;
+  background-color: #FFB356;
+  border-radius: 15px;
+  margin-top: 40px;
+  padding-bottom: 5rem;
+}
+
+.RoboOlympics_heading {
+  margin-top: 3rem;
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+.winner_container {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 42px;
+  padding: 24px 35px;
+}
+
+.Winner_details {
+  width: 388px;
+  /* height: 273px; */
+  /* color: white; */
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Winner_names {
+  width: 180px;
+  margin: 25px 6px 20px 7px;
+  text-align: center;
+}
+.Winner_image {
+  width: 172px;
+  height: 167px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.Congratulation_container {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.congratulation {
+  font-size: 3.5rem;
+  color: #1C55AB;
+  font-weight: 600;
+}
+
+.paragraph {
+  font-size: 30px;
+}
+
+@media (max-width: 430px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 80vw;
+    margin-left: -3rem;
+  }
+
+  .left h1 {
+    font-size: 3rem;
+  }
+
+  .year {
+    font-size: 1.5rem;
+  }
+
+  .first {
+    width: 90vw;
+    font-size: 0.8rem;
+  }
+
+  .second {
+    width: 90vw;
+    font-size: 0.8rem;
+  }
+
+  .vid iframe {
+    width: 22rem;
+    height: 17rem;
+  }
+
+  .events {
+    flex-direction: column;
+  }
+
+  .section {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  .heading {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
+  .events img {
+    width: 90vw;
+  }
+
+  .zealicon_heading {
+    color: #1C55AB;
+    font-size: 2rem;
+  }
+
+  .Robo_olympics {
+    display: grid;
+    justify-items: center;
+    border-radius: 15px;
+    margin-top: 40px;
+    width: 337px;
+  }
+
+  .RoboOlympics_heading {
+    margin-top: 47px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .winner_container {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 42px;
+    padding: 24px 35px;
+  }
+
+  .Winner_details {
+    width: 277px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Winner_names {
+    width: 180px;
+    margin: 25px 6px 20px 7px;
+    text-align: center;
+  }
+  .Winner_image{
+    width: 172px;
+    height: 167px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .Winner_details h1 
+  {
+    margin: auto;
+  }
+  .Congratulation_container {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .congratulation {
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1C55AB;
+  }
+
+  .paragraph {
+    font-size: 15px;
+  }
+
+
+}
+
+
+
+@media screen and (max-height: 667px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 80vw;
+    margin-left: -3rem;
+  }
+
+  .left h1 {
+    font-size: 3rem;
+  }
+
+  .year {
+    font-size: 1.5rem;
+  }
+
+  .first {
+    width: 90vw;
+    font-size: 0.8rem;
+  }
+
+  .second {
+    width: 90vw;
+    font-size: 0.8rem;
+  }
+
+  .vid iframe {
+    width: 22rem;
+    height: 17rem;
+  }
+
+  .events {
+    flex-direction: column;
+  }
+
+  .section {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
+  .heading {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 15rem;
+  }
+
+  .events img {
+    width: 90vw;
+  }
+  .zealicon_heading {
+    color: #1C55AB;
+    font-size: 2.5rem;
+  }
+
+  /* .Robo_olympics {
+    display: grid;
+    justify-items: center;
+    border-radius: 15px;
+    margin-top: 40px;
+    width: 545px;
+  }
+
+  .RoboOlympics_heading {
+    margin-top: 47px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .winner_container {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 42px;
+    padding: 24px 35px;
+  }
+
+  .Winner_details {
+    width: 204px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Winner_names {
+    width: 180px;
+    margin: 25px 6px 20px 7px;
+    text-align: center;
+  }
+  .Winner_image{
+    width: 172px;
+    height: 167px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .Congratulation_container {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .congratulation {
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #1C55AB;
+  } */
+
+  .paragraph {
+    font-size: 15px;
+  }
+}

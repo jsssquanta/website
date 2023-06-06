@@ -1,0 +1,52 @@
+.container {
+    height: auto;
+    width: auto;
+    --radius: 2.2rem;
+    position: relative;
+  }
+
+  .cardImage {
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+  }
+
+  .icon {
+    position: absolute;
+    right: 0.75rem;
+    bottom: 5.5rem;
+    opacity: 0.7;
+  }
+  
+  .icon:nth-child(2) {
+    bottom: 7.5rem;
+  }
+
+  .icon:nth-child(3) {
+    bottom: 9.5rem;
+  }
+  
+  .cardBodyContainer {
+    height: 3.72rem;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 17.5rem;
+    color: black;
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    border: 1px solid white;
+  }
+  
+  .cardTitle {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin: 0.5rem auto 0 1rem;
+  }
+  
+  .cardDesc {
+    font-size: 0.8rem;
+    line-height: 1.05rem;
+    margin: 0 auto 0.5rem 1rem;
+  }
