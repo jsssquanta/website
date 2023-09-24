@@ -16,7 +16,7 @@ export default function Teampage() {
         bgSize={"500px"}
       />
       <Teamyear props={teamFourthYear} year="Fourth" />
-      <Teamyear props={teamThirdYear} year="Third" />
+      {/* <Teamyear props={teamThirdYear} year="Third" /> */}
       <Contact />
       <Footer />
     </div>
